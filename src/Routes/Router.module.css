@@ -1,5 +1,26 @@
-.navig > * {
-    text-decoration: none;
-    padding: 10px;
-    color: black;
+.mainBody {
+    margin: auto;
+  width: 85%;
+}
+
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.navTab > * {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+
+/* .socialIcon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+} */
+
+.socialIcon > * {
+  margin: 0px 5px;
 }
