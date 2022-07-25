@@ -1,7 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Carousel from '../Home/Carousel';
 
 export default function Home() {
   return (
-    <div>Home</div>
+    <div style={{border: "1px solid red"}}>
+      <Carousel />
+    </div>
+
   )
 }
