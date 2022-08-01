@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './Components/Header/Header';
-import Footer from './Components/Foooter/Footer';
+{/* import Footer from './Components/Foooter/Footer'; */}
 import Router from './Routes/Router';
 
 import styles from "./App.module.css";
