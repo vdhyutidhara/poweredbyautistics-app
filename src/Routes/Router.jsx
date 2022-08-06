@@ -14,6 +14,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 // Active Link styling
 let activeStyle = {
   fontWeight: "700",
+  color: "#05a7d0"
 };
 
 // Links Object
@@ -43,11 +44,12 @@ export default function Router() {
             ))}
         </div>
         <div className={styles.socialIcon}>
-          <FacebookIcon fontSize="small"/>
-          <TwitterIcon fontSize="small"/>
-          <InstagramIcon fontSize="small"/>
+          <FacebookIcon fontSize="small" />
+          <TwitterIcon fontSize="small" />
+          <InstagramIcon fontSize="small" />
         </div>
       </nav>
+      <hr className={styles.horLineStyle} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -55,6 +57,7 @@ export default function Router() {
         <Route path="course" element={<Course />} />
         <Route path="blog" element={<Blog />} />
       </Routes>
+      
     </div>
   );
 }

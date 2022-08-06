@@ -1,6 +1,11 @@
 .mainBody {
-    margin: auto;
+  margin: auto;
   width: 85%;
+}
+
+.horLineStyle {
+  width: 100%;
+  border: 0.25px solid lightgrey;
 }
 
 .navBar {
