@@ -1,0 +1,11 @@
+.mainSection {
+  display: flex;
+}
+
+.mainLeft {
+  flex: 2;
+}
+
+.mainRight {
+  flex: 1;
+}

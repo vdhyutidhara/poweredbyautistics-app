@@ -22,8 +22,7 @@ const links = [
   { to: "/", title: "Home" },
   { to: "/course", title: "Course" },
   { to: "/blog", title: "Blog" },
-  { to: "/about", title: "About" },
-  { to: "/contact", title: "Contact" },
+  { to: "/about", title: "About" }
 ];
 
 // Routes Object
@@ -54,7 +53,6 @@ export default function Router() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="contact" element={<Contact />} />
-        <Route path="course" element={<Course />} />
         <Route path="blog" element={<Blog />} />
       </Routes>
       

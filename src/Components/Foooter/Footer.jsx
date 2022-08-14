@@ -21,16 +21,13 @@ export default function Footer() {
         <span>
           <EmailIcon fontSize="small" />
         </span>
-        <span>sudanshu17@gmail.com</span>
+        <span>poweredbyautistics@gmail.com</span>
 
         <PhoneIcon fontSize="medium" />
         <span>8860076975</span>
 
         <FacebookIcon fontSize="medium" />
         <span>poweredbyautistics</span>
-
-        <TwitterIcon fontSize="medium" />
-        <span>@poweredbyautistics</span>
       </div>
     </div>
   );

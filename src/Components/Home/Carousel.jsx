@@ -25,7 +25,6 @@ const items = [
       height="300px"
     />
   </div>,
-
   <div className="item" data-value="3">
     <img
       src="https://i.imgur.com/IIxPPVX.jpeg"
