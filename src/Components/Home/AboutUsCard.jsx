@@ -4,7 +4,6 @@ import styles from "./AboutUsCard.module.css";
 export default function AboutUsCard() {
   return (
     <div>
-      {" "}
       {/* Who we are */}
       <section className={styles.content}>
         <h3>Who we are</h3>
@@ -19,7 +18,7 @@ export default function AboutUsCard() {
           </li>
         </ul>
       </section>
-      <hr className={styles.horStyle} />
+      {/* <hr className={styles.horStyle} /> */}
       {/* What we do */}
       <section className={styles.content}>
         <h3>What we do</h3>
@@ -39,7 +38,7 @@ export default function AboutUsCard() {
         </ol>
         <p>We are here to Empower Autistic individuals and their families!</p>
       </section>
-      <hr className={styles.horStyle} />
+      {/* <hr className={styles.horStyle} /> */}
       {/* What makes us different from other service organisations */}
       <section className={styles.content}>
         <h3>What makes us different from other service organisations</h3>
