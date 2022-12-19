@@ -49,13 +49,8 @@ export default function AboutUsCard() {
           autistic.
         </p>
         <p>
-          So we are an organisation for the Autistc people, run by the Autistc
+          We are an organisation for the Autistc people, run by the Autistc
           people.
-        </p>
-        <p>
-          I don't think we should put up anything about what is Autism right
-          now. We may need to think it through so that we don't sound as if we
-          are catering only to a certain group of people.
         </p>
       </section>
     </div>
