@@ -1,24 +1,25 @@
 import React from "react";
 import styles from "./Home.module.css";
 import Carousel from "../Home/Carousel";
-import AboutUsCard from "../Home/AboutUsCard";
-import ServiceCard from "../Home/ServiceCard";
 
 export default function Home() {
   return (
     <div>
+      {/* Carousal Section */}
       <Carousel />
+
+      {/* Who We Are */}
       <section className={styles.weAreBox}>
         Powered by Autistics is an Autistic led service organization.
         All programs are designed and implemented by Autistic Individuals.
         We use a Neurodiversity affirming, strength-based approach to
         nurture confident, self-assured Autistic individuals.
-
         <button>
           <a href="\about">DISCOVER MORE</a>
         </button>
-
       </section>
+
+      {/* What We Do Section */}
       <section className={styles.weDoBox}>
         <p>
           We listen to the autistic community directly and build the services we wish we had ourselves. Currently this includes:
@@ -33,15 +34,34 @@ export default function Home() {
         </ol>
         <p>We are here to Empower Autistic individuals and their families!</p>
       </section>
-      
-      <section className={styles.mainSection}>
-        <div className={styles.mainLeft}>
-          <AboutUsCard />
-        </div>
-        <div className={styles.mainRight}>
-          <ServiceCard />
+
+      {/* Meet Up Section */}
+      <section className={styles.meetupBox}>
+        <h2>Our Meetups</h2>
+        <div className={styles.meetupBoxCard}>
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
         </div>
       </section>
+
+      {/* Empathy */}
+      <section className={styles.empathyCard}>
+        <h1>Why Us?</h1>
+        <div>
+          <p>
+            Like the name says, Powered By Autistics has a 100% autistic staff.
+            From the directors of the organization, to the programmers who built
+            this site, and the writers who put up the material, we're all
+            autistic.
+          </p>
+          <p>
+            We are an organisation for the Autistc people, run by the Autistc
+            people.
+          </p>
+        </div>
+      </section>
+
     </div>
   );
 }

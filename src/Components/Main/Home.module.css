@@ -12,7 +12,7 @@
 
 .weAreBox {
   display: block;
-  padding: 4em;
+  padding: 2em;
   font-size: 3ch;
   text-align: center;
 }
@@ -32,8 +32,43 @@
 }
 
 .weDoBox {
-  font-size: 1em;
+  font-size: 2ch;
   background: rgb(244, 245, 247);
   padding: 3em;
   border-radius: 10px;
+}
+
+.meetupBox {
+  margin: 1em auto;
+}
+
+.meetupBox > h2 {
+  text-align: center;
+}
+
+.meetupBoxCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 20px;
+}
+
+.meetupBoxCard > div {
+  height: 350px;
+  width: 300px;
+  max-width: 350px;
+  background-color: rgb(244, 245, 247);
+  border-radius: 10px;
+}
+
+.empathyCard > h1 {
+  text-align: center;
+}
+
+.empathyCard {
+  font-size: 2ch;
+  padding: 2em 3em;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
 }
