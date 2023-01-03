@@ -8,6 +8,17 @@ export default function Home() {
   return (
     <div>
       <Carousel />
+      <section className={styles.weAreBox}>
+        Powered by Autistics is an Autistic led service organization.
+        All programs are designed and implemented by Autistic Individuals.
+        We use a Neurodiversity affirming, strength-based approach to
+        nurture confident, self-assured Autistic individuals.
+
+        <button>
+          <a href="\about">DISCOVER MORE</a>
+        </button>
+
+      </section>
       <section className={styles.mainSection}>
         <div className={styles.mainLeft}>
           <AboutUsCard />

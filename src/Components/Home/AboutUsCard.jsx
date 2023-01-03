@@ -6,17 +6,6 @@ export default function AboutUsCard() {
     <div>
       {/* Who we are */}
       <section className={styles.content}>
-        <h3>Who we are</h3>
-        <ul>
-          <li>Powered by Autistics is an Autistic led service organization.</li>
-          <li>
-            All programs are designed and implemented by Autistic Individuals.
-          </li>
-          <li>
-            We use a Neurodiversity affirming, strength-based approach to
-            nurture confident, self-assured Autistic individuals.
-          </li>
-        </ul>
       </section>
       {/* <hr className={styles.horStyle} /> */}
       {/* What we do */}
