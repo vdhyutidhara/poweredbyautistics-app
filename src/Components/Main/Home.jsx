@@ -19,6 +19,21 @@ export default function Home() {
         </button>
 
       </section>
+      <section className={styles.weDoBox}>
+        <p>
+          We listen to the autistic community directly and build the services we wish we had ourselves. Currently this includes:
+        </p>
+        <ol>
+          <li>Diagnosis for autistic children, teens and adults.</li>
+          <li>Support and counselling for autistic people across all age groups.</li>
+          <li>Support groups for Autistic people.</li>
+          <li>Talks by autistic people about their lived experiences.</li>
+          <li>Counsel and train parents/ family of Autistic individuals. </li>
+          <li>Training of mainstream school teachers and principals</li>
+        </ol>
+        <p>We are here to Empower Autistic individuals and their families!</p>
+      </section>
+      
       <section className={styles.mainSection}>
         <div className={styles.mainLeft}>
           <AboutUsCard />

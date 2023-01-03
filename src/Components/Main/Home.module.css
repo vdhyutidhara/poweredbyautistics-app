@@ -30,3 +30,10 @@
   text-decoration: none;
   color: inherit;
 }
+
+.weDoBox {
+  font-size: 1em;
+  background: rgb(244, 245, 247);
+  padding: 3em;
+  border-radius: 10px;
+}
