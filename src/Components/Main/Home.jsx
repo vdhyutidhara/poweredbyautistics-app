@@ -15,7 +15,7 @@ export default function Home() {
         We use a Neurodiversity affirming, strength-based approach to
         nurture confident, self-assured Autistic individuals.
         <button>
-          <a href="about">DISCOVER MORE</a>
+          <a href="/about">DISCOVER MORE</a>
         </button>
       </section>
 
