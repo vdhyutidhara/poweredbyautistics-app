@@ -3,7 +3,6 @@ import styles from "./Home.module.css";
 import btnAnimation from "../Home/glow-on-hover.module.css"
 import Carousel from "../Home/Carousel";
 import { Link } from "react-router-dom";
-import { style } from "@mui/system";
 
 export default function Home() {
   return (
