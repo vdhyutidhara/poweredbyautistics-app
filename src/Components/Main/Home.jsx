@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Home.module.css";
 import Carousel from "../Home/Carousel";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -14,9 +15,9 @@ export default function Home() {
         All programs are designed and implemented by Autistic Individuals.
         We use a Neurodiversity affirming, strength-based approach to
         nurture confident, self-assured Autistic individuals.
-        <button>
-          <a href="/about">DISCOVER MORE</a>
-        </button>
+        <Link to="/about" className={styles.discoverBtn}>
+          DISCOVER MORE
+        </Link>
       </section>
 
       {/* What We Do Section */}
