@@ -1,7 +1,9 @@
 import React from "react";
 import styles from "./Home.module.css";
+import btnAnimation from "../Home/glow-on-hover.module.css"
 import Carousel from "../Home/Carousel";
 import { Link } from "react-router-dom";
+import { style } from "@mui/system";
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
         All programs are designed and implemented by Autistic Individuals.
         We use a Neurodiversity affirming, strength-based approach to
         nurture confident, self-assured Autistic individuals.
-        <Link to="/about" className={styles.discoverBtn}>
+        <Link to="/about" className={btnAnimation.glowOnHover}>
           DISCOVER MORE
         </Link>
       </section>
@@ -40,9 +42,15 @@ export default function Home() {
       <section className={styles.meetupBox}>
         <h2>Our Meetups</h2>
         <div className={styles.meetupBoxCard}>
-          <div>1</div>
-          <div>2</div>
-          <div>3</div>
+          <div className={styles.meetupBoxCard1}>
+            <button>Know More</button>
+          </div>
+          <div className={styles.meetupBoxCard2}>
+            <button>Know More</button>
+          </div>
+          <div className={styles.meetupBoxCard3}>
+            <button>Know More</button>
+          </div>
         </div>
       </section>
 
