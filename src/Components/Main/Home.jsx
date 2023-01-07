@@ -5,6 +5,24 @@ import Carousel from "../Home/Carousel";
 import { Link } from "react-router-dom";
 
 export default function Home() {
+
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+
+    const myForm = event.target;
+    const formData = new FormData(myForm);
+
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: new URLSearchParams(formData).toString(),
+    })
+      .then(() => console.log("Form successfully submitted"))
+      .catch((error) => alert(error));
+  };
+
+
   return (
     <div>
       {/* Carousal Section */}
@@ -70,6 +88,28 @@ export default function Home() {
         </div>
       </section>
 
-    </div>
+      {/* Get In touch with Us */}
+      <section className={styles.getInTouchCard}>
+        <h1>Get In Touch</h1>
+        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+          <p>
+            <label for="name">Your Name</label><br/>
+            <input type="text" id="name" name="name" />
+          </p>
+          <p>
+            <label for="email">Your Email</label><br/>
+            <input type="email" id="email" name="email" />
+          </p>
+          <p>
+            <label for="message">Message </label><br/>
+            <textarea name="message" id="message"></textarea>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+      </section>
+
+    </div >
   );
 }
