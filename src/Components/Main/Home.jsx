@@ -91,17 +91,18 @@ export default function Home() {
       {/* Get In touch with Us */}
       <section className={styles.getInTouchCard}>
         <h1>Get In Touch</h1>
-        <form name="contact" method="POST" data-netlify="true" onSubmit={handleSubmit}>
+        <form name="contact" method="POST" onSubmit={handleSubmit}>
+          <input type="hidden" name="form-name" value="contact" />
           <p>
-            <label for="name">Your Name</label><br/>
+            <label for="name">Your Name</label><br />
             <input type="text" id="name" name="name" />
           </p>
           <p>
-            <label for="email">Your Email</label><br/>
+            <label for="email">Your Email</label><br />
             <input type="email" id="email" name="email" />
           </p>
           <p>
-            <label for="message">Message </label><br/>
+            <label for="message">Message </label><br />
             <textarea name="message" id="message"></textarea>
           </p>
           <p>
