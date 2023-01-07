@@ -14,7 +14,7 @@ const items = [
       src="https://i.imgur.com/uHSqYS2.jpg"
       alt="img1"
       width="100%"
-      height="300px"
+      height="350px"
     />
   </div>,
   <div className="item" data-value="2">
@@ -22,7 +22,7 @@ const items = [
       src="https://i.imgur.com/HxzDPTH.jpg"
       alt="img2"
       width="100%"
-      height="300px"
+      height="350px"
     />
   </div>,
   <div className="item" data-value="3">
@@ -30,7 +30,7 @@ const items = [
       src="https://i.imgur.com/IIxPPVX.jpeg"
       alt="img3"
       width="100%"
-      height="300px"
+      height="350px"
     />
   </div>,
 ];

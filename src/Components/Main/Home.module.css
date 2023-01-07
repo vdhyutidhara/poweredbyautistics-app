@@ -73,11 +73,12 @@
 
 .meetupBoxCard > div > button {
   border: 1px solid black;
-  border-radius: 10px;
+  border-radius: 25px;
+  font-weight: bold;
   position: relative;
   top: 85%;
-  left: 37%;
-  padding: 5px;
+  left: 34%;
+  padding: 10px;
   cursor: pointer;
   color: white;
   background: black;
