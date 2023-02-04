@@ -10,29 +10,29 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 const items = [
   <div className="item" data-value="1">
-    <img
-      src="https://i.imgur.com/uHSqYS2.jpg"
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfIODwrJDdLKB5LbV18OQsC8RNQLbpEZXBQQG541g-iwqU1hw/viewform"><img
+      src="https://i.imgur.com/6USLLRc.png"
       alt="img1"
       width="100%"
-      height="350px"
-    />
+      height="600px"
+    /></a>
   </div>,
-  <div className="item" data-value="2">
-    <img
-      src="https://i.imgur.com/HxzDPTH.jpg"
-      alt="img2"
-      width="100%"
-      height="350px"
-    />
-  </div>,
-  <div className="item" data-value="3">
-    <img
-      src="https://i.imgur.com/IIxPPVX.jpeg"
-      alt="img3"
-      width="100%"
-      height="350px"
-    />
-  </div>,
+  // <div className="item" data-value="2">
+  //   <img
+  //     src="https://i.imgur.com/HxzDPTH.jpg"
+  //     alt="img2"
+  //     width="100%"
+  //     height="350px"
+  //   />
+  // </div>,
+  // <div className="item" data-value="3">
+  //   <img
+  //     src="https://i.imgur.com/IIxPPVX.jpeg"
+  //     alt="img3"
+  //     width="100%"
+  //     height="350px"
+  //   />
+  // </div>,
 ];
 
 const Carousel = () => (

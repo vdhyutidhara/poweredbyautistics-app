@@ -7,7 +7,7 @@ export default function About() {
       <h1>Meet our founders</h1>
       <div className={styles.cardContainer}>
         <div className={styles.founderCard}>
-          <img src="http://www.autism-india.org/images/page/team/Sudanshu.jpg" alt="sudhanshu_img" />
+          <img src="https://www.autism-india.org/images/page/team/Sudanshu.jpg" alt="sudhanshu_img" />
           <h2>Sudhanshu Grover</h2>
 
         </div>
