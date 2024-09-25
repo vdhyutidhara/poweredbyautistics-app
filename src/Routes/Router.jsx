@@ -1,13 +1,11 @@
 import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
-import { Link } from "react-router-dom";
 import Home from "../Components/Main/Home";
 import Services from "../Components/Main/Services";
 import Blog from "../Components/Main/Blog";
 import About from "../Components/Main/About";
 
 import styles from "./Router.module.css";
-import FacebookIcon from "@mui/icons-material/Facebook";
 import { Instagram } from "@mui/icons-material";
 
 // Active Link styling
