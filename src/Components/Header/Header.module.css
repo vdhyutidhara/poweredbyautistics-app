@@ -1,3 +1,9 @@
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px 0px 50px;
+}
 .logo {
     height: 500px;
     width: 500px;

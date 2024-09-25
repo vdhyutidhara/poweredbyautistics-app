@@ -1,0 +1,13 @@
+.socialIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+  
+  .tableItem {
+    display: flex;
+    flex-direction: row;
+    align-content: last baseline;
+    gap: 5px;
+  }

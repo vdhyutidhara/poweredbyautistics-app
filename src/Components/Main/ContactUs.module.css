@@ -1,0 +1,16 @@
+
+.getInTouchCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  }
+  .getInTouchCard >div{
+    background-color: rgb(229, 133, 9);
+    padding: 0 20px 0 20px ;
+  }
+  .getInTouchCard > h1 {
+    text-align: center;
+  }
+  
