@@ -1,0 +1,14 @@
+[[redirects]]
+from = "/about"
+to = "https://poweredbyautistics.com/about"
+status = 200
+
+[[redirects]]
+from = "/blog"
+to = "https://poweredbyautistics.com/blog"
+status = 200
+
+[[redirects]]
+from = "/services"
+to = "https://poweredbyautistics.com/services"
+status = 200
