@@ -40,7 +40,7 @@ export default function Router() {
             ))}
         </div>
         <div className={styles.socialIcon}>
-          <a href='https://instagram.com/poweredbyautistics'>
+          <a href="https://instagram.com/poweredbyautistics">
             <Instagram fontSize="small" />
           </a>
         </div>
@@ -48,9 +48,9 @@ export default function Router() {
       <hr className={styles.horLineStyle} />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="services" element={<Services />} />
-        <Route path="blog" element={<Blog />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
     </div>
   );
