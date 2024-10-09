@@ -1,14 +1,5 @@
 [[redirects]]
-from = "https://poweredbyautistics.com/about"
-to = "/about"
+from = "/*"
+to = "/index.html"
 status = 200
 
-[[redirects]]
-from = "https://poweredbyautistics.com/blog"
-to = "/blog"
-status = 200
-
-[[redirects]]
-from = "https://poweredbyautistics.com/services"
-to = "/services"
-status = 200
