@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/about"
-to = "/index.html/about"
+from = "/*"
+to = "/"
 status = 200
 
