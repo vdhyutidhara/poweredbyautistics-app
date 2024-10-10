@@ -28,7 +28,6 @@ export default function Router() {
   return (
     <div className={styles.mainBody}>
       <nav className={styles.navBar}>
-        {console.log("test to see routes are loading")}
         <div className={styles.navTab}>
           {links &&
             links?.map((link) => (
