@@ -7,9 +7,16 @@
 
 body {
   font-family: "Lato", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 100%;
 }
 
 .horLineStyle {
   width: 85%;
   border: 0.25px solid lightgrey;
+}
+.app {
+  display: block;
 }
