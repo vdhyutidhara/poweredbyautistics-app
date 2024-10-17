@@ -6,6 +6,11 @@ import ContactInfo from "../ContactInfo";
 export default function Footer() {
   return (
     <div className={styles.footerContainer}>
+      <div className={styles.footermenu}>
+        <a href="/terms&condition">Terms & Conditons</a>
+        <a href="/refundPolicy">Refund Policy</a>
+        <a href="/privacyPolicy">Privacy Policy</a>
+      </div>
       <div className={styles.headerMain}>
         <Avatar
           alt="Logo"
@@ -13,7 +18,7 @@ export default function Footer() {
           sx={{ height: "auto", width: "150px", margin: "0px auto" }}
         />
       </div>
-      <ContactInfo/>
+      <ContactInfo />
     </div>
   );
 }

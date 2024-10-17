@@ -4,6 +4,9 @@ import Home from "../Components/Main/Home";
 import Services from "../Components/Main/Services";
 import Blog from "../Components/Main/Blog";
 import About from "../Components/Main/About";
+import PrivacyPolicy from "../Components/Foooter/privacyPolicy";
+import RefundPolicy from "../Components/Foooter/refundPolicy";
+import TermsCondition from "../Components/Foooter/termsCondition";
 
 import styles from "./Router.module.css";
 import { Instagram } from "@mui/icons-material";
@@ -51,6 +54,9 @@ export default function Router() {
         <Route path="about" element={<About />} />
         <Route path="services" element={<Services />} />
         <Route path="blog" element={<Blog />} />
+        <Route path="terms&condition" element={<TermsCondition />} />
+        <Route path="refundPolicy" element={<RefundPolicy />} />
+        <Route path="privacyPolicy" element={<PrivacyPolicy />} />
       </Routes>
     </div>
   );
