@@ -2,7 +2,7 @@ export default function RefundPolicy() {
   return (
     <div>
       <h2>Refund Policy</h2>
-      <p>Returns
+      <pre>Returns
 Our policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.
 
 To be eligible for a return, your item must be unused and in the same condition that you received it. It must also be in the original packaging.
@@ -53,7 +53,7 @@ If you are shipping, you will be responsible for paying for your own shipping co
 Depending on where you live, the time it may take for your exchanged product to reach you, may vary.
 
 If you are shipping an item over $75, you should consider using a trackable shipping service or purchasing shipping insurance. We don’t guarantee that we will receive your returned item.
-</p>
+</pre>
     </div>
   );
 }
