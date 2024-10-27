@@ -1,12 +1,12 @@
-import React from 'react';
+import React from "react";
 import styles from "./App.module.css";
-import Header from './Components/Header/Header';
-import Router from './Routes/Router';
-import Footer from './Components/Foooter/Footer';
+import Header from "./Components/Header/Header";
+import Router from "./Routes/Router";
+import Footer from "./Components/Foooter/Footer";
 
 function App() {
   return (
-    <div className="App">
+    <div className={styles.app}>
       <Header />
       <hr className={styles.horLineStyle} />
       <Router />
